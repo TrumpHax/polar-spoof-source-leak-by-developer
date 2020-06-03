@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base64">
+      <UniqueIdentifier>{2f1df842-36c1-46f8-a306-dadd33f3e11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{c17e6c16-e35c-47cd-a8ac-45b256078511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{73da0b90-ca0a-4a8e-8144-1b7d972c10f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{82bb5139-152e-4b2b-840f-d50c60dab771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{16de82a5-216e-49e6-b0ae-f18d632ca474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hwid">
+      <UniqueIdentifier>{4389eddf-61b4-4bbc-99db-b85b68217d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visuals">
+      <UniqueIdentifier>{8b24f35b-cf2f-4e33-b41e-34b76b3a1c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{5893eeaf-76f0-4a13-b464-87b39b360326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cleaner">
+      <UniqueIdentifier>{b9278141-7387-46b2-8a24-38bdd765afe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base64.h">
+      <Filter>base64</Filter>
+    </ClInclude>
+    <ClInclude Include="t_api.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>hwid</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleaner.h">
+      <Filter>Cleaner</Filter>
+    </ClInclude>
+    <ClInclude Include="FindFortnite.h">
+      <Filter>Cleaner</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base64.cpp">
+      <Filter>base64</Filter>
+    </ClCompile>
+    <ClCompile Include="t_api.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="t_handle.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="hwid.cpp">
+      <Filter>hwid</Filter>
+    </ClCompile>
+    <ClCompile Include="logo.cpp">
+      <Filter>Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Cleaner.cpp">
+      <Filter>Cleaner</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFortnite.cpp">
+      <Filter>Cleaner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="file1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="file3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="file2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
